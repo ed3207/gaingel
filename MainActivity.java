@@ -23,8 +23,12 @@ public class MainActivity extends AppCompatActivity {
 
         frameLayout.addView(showCamera);
 
+        //This button will have the screenshot function enabled
+        //in it.
         Button captureBtn = findViewById(R.id.captureBtn);
         captureBtn.setOnClickListener(new View.OnClickListener() {
+            //this onClick method will be the function which
+            //contain all the details of screenshotting the thing
             @Override
             public void onClick(View v) {
 
